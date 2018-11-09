@@ -1,18 +1,15 @@
 import myuscauth
 import ratemyprof_scraper
-import requests
 import lxml
 from lxml import html
-from lxml import etree
 import pickle
 import os
 import re
 from datetime import time
 import credentials
-from datetime import timedelta
 
 pickle_file = 'my_usc_session.pkl'
-term = 'fall' # Options, Spring Fall Summer
+term = 'spring' # Options, Spring Fall Summer
 course_name = 'writ-150'
 
 home = 'https://my.usc.edu/'

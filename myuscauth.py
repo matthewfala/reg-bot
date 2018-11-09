@@ -52,6 +52,7 @@ def usc_auth(username, password):
     #print login.url
 
     print "Are We Logged In? : " + str(username in login.text)
-
+    if username not in login.text:
+        raise Exception("Login Error")
     return s
 

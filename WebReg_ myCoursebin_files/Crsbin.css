@@ -1,0 +1,617 @@
+﻿/* menu
+----------------------------------------------------------*/
+#mItMycrsbin
+{
+    background-color: #790202;
+    color: #ffcc00;
+}
+
+.dial_aud_pnp{
+
+    font-family:Arial; font-size:12px;
+}
+
+.prereqcoreq_lbl{
+    display:block;
+    width:100%;
+    float:left;
+    font-size: 0.75rem;
+    border:0px solid #fb7272;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}
+
+.prereqcoreq_val{
+    display:block;
+    width:100% ;
+    float:left; 
+    font-size:12px; 
+    color:#990000;
+}
+
+.unit_Grdopt {
+     text-align: left; 
+     float: left; 
+}
+
+.div_grdoptchg  {
+    display: block;
+    min-width:150px;
+    width: 220px;
+    padding:0px;
+    clear:left;
+    float:left;
+    color:black;
+    height:20px;
+    background-color:#fdfdbe;
+    color:#333333;
+    border:0px;
+    text-align: left;
+    font-size: 10px;
+    vertical-align:middle;
+    line-height: 5px;
+    margin-bottom: 2px;
+}
+
+.grdoptchg_YN_txt{
+    display: block;
+    width:120px;
+    text-align:left; 
+    padding:0px;
+    float: left;
+    height:20px;
+    font-size: 9px;
+    color:#333333;
+    border:0px;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 5px;
+
+ 
+}
+
+.grdoptRadTxt{
+    display: block;
+    width:10px;
+    text-align:left; 
+    padding:0px;
+    float: left;
+    color:black;
+    height:20px;
+    font-size: 9px;
+    color:#333333;
+    border:0px;
+    line-height: 10px;
+    margin-top: 5px;
+
+}
+
+.pGrdOpt {
+    display: block;
+    text-align:left; 
+    float:left;
+    font-size: 0.75rem;
+    padding-top: 4px;
+}
+
+.grdoptsel  {
+display: block;
+margin: 0;
+height:20px;
+padding:0px;
+font-size: 10px;
+}
+
+.grdoptselNEW  {
+    display: block;
+    padding:0px;
+    margin: 0;
+    height:20px;
+    font-size: 10px;
+}
+
+
+
+
+
+.unitssel_div{
+
+    display: block;
+    width:220px;
+    text-align:left; 
+    padding:0px;
+    clear:left;
+    font-size:9px;
+    min-height:23px;
+    background-color:#fff;
+    color:#333333;
+    font-size: 10px;
+
+}
+
+.SltUnit{
+    display: block;
+    width:220px;
+    text-align:left; 
+    clear:left;
+    color:red;
+    height:20px;
+    font-size: 9px;
+    background-color:#fffba7;
+    color:#333333;
+    border:0px;
+    font-size: 10px;
+    line-height: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-wrap:none;
+ 
+}
+
+.pSltUnitTxt {
+
+    display: block;
+    width:160px;
+    text-align:left; 
+    clear:left;
+    float:left;
+    color:black;
+    height:20px;
+    font-size: 9px;
+    background-color:#fffba7;
+    color:#333333;
+    border:0px;
+    font-size: 10px;
+    padding-top: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.ddUnitsSelect{
+
+    display: block;
+    width:50px;
+    text-align:center; 
+    padding-top: 2px;
+    padding-bottom: 0px;
+    float:left;
+    height:20px;
+    background-color:#fffba7;
+    color:#333333;
+    font-size:12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.schUnschRmv
+{
+    clear:both;
+    padding-top:3px; 
+}
+
+.dvSRtxt
+{
+    font-size: 0.8rem;
+    padding: 4px;
+    padding-left: 2px;
+    float: left;
+}
+
+.spSRtxt
+{
+    float: initial;
+    padding-left: 2px;
+    font-size: 0.8rem;
+}
+.spdrptxt
+{   
+    clear:both;
+    float:left;
+    font-size:10px;
+    line-height:10px;
+    padding:4px;
+    padding-left:0px;
+    color:#999;
+}
+   
+.dvicn{
+    display: block;
+    font-size: 9px;
+}
+
+.dvicnRmv{
+    display: block;
+    font-size: 9px;
+    float:left;
+}
+
+.icnRmv {
+    font-size: 9px;
+    float: left;
+    clear:right;
+    display: block;
+    width: 60px;  
+}
+
+.icnRmvtxt {
+    display:block;
+    clear:both;
+    float:left;
+}
+            
+.spaddbtn
+{
+    display: block;
+    float: left;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+         
+.spUpdatebtn
+{
+    display: block;
+    float: left;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.spdropbtn
+{
+    display: block;
+    font-family: 'Arial Rounded MT';
+    font-size: 9px;
+    float: left;
+    height: 40px;
+    vertical-align:bottom;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top:10px;
+}
+
+.cb_srchtxt{
+    display:block;
+    background-color:#fff;
+    font-size:0.7rem;
+    text-align:left;
+    clear:both;
+    float:left;
+    padding-right:4px;
+    font-weight:bold;
+    padding-top:4px;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+
+.cb_srchCrs{
+    display:block;
+    background-color:#fff;
+    font-size:0.8rem;
+    text-align:left;
+    float:left;
+    padding-right:4px;
+    text-decoration:underline;
+    font-weight:bold;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+
+.cb_srchDept{
+    display:block;
+    background-color:#fff;
+    text-align:left;
+    float: left;
+    font-size:0.7rem;
+    clear:right;
+    padding-left:7px;
+    text-decoration:underline;
+    font-weight:bold;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+
+.lnkCrs {
+    display:block; background-color:#fff; height:20px; width:100%; color:#999; border:0px solid red; font-size:10px; 
+    border-radius:4px; text-decoration:underline;
+}
+ 
+div.hidden
+{
+   display: none;
+}
+
+.section_crsbin_alt0 {
+background-color:#fff;
+font-size: 0.9rem;
+}
+
+.section_crsbin_alt1 {
+    background-color:#fff;
+    font-size: 0.9rem;
+}
+
+.panel-header {
+    padding:10px;
+    margin-bottom:0px;
+}
+
+.panel-body {    
+    border: 1px solid #F2F2F2;
+}
+
+.course-header-even {
+    background-color:rgb(242, 241, 241);
+    padding-bottom: 2px;
+}
+
+.course-header-odd {
+    padding-bottom: 2px;
+}
+
+.grade_alt1 {
+    display: block;
+    width:5%;
+    text-align:left; 
+    padding:2px;
+    float:left;
+    min-height:15px;
+}
+
+.grade_alt0 {
+    display: block;
+    width: 5%;
+    text-align: left;
+    padding:2px;
+    float:left;
+    min-height:15px;
+}
+
+.status_alt1 {
+    display: block;
+    width:4%;
+    text-align:left; 
+    padding:2px;
+    float:left;
+    min-height:15px;
+}
+
+.status_alt0 {
+    display: block;
+    width: 4%;
+    text-align: left;
+    padding:2px;
+    float:left;
+    min-height:15px;
+}
+
+.id_alt1  { 
+    text-align:left; 
+    float:left;
+    overflow: auto;
+}
+
+
+.id_alt0  {
+    text-align:left; 
+    float:left;
+    overflow: auto;
+}
+
+.session_alt1 {
+    text-align:left; 
+    float:left;
+}
+
+.session_alt0 {
+    text-align: left;
+    float:left;
+}
+
+
+.type_alt1 {
+    text-align:left; 
+    float:left;
+}
+
+.type_alt0 {
+    text-align: left;
+    float:left;
+}
+
+.unitselect_alt1 {
+    text-align: left;
+    float:left;
+}
+
+.unitselect_alt0 {
+    text-align: left;
+    float:left;
+}
+
+
+.regSeats_alt1  {
+    text-align:left; 
+    float:left;
+}
+
+.regSeats_alt0 {
+    text-align:left; 
+    float:left;
+}
+
+
+.hours_alt1  {
+    text-align:left; 
+    float:left;
+}
+
+.hours_alt0 {
+    text-align:left; 
+    float:left;
+}
+
+.days_alt1  {
+    text-align:left; 
+    float:left;
+}
+
+.days_alt0 {
+    text-align:left; 
+    float:left;
+}
+
+
+.instr_alt1  {
+    text-align:left; 
+    float:left;
+}
+
+.instr_alt0 {
+    text-align:left; 
+    float:left;
+}
+
+
+.rm_alt1  {
+    text-align:left; 
+    float:left;
+}
+
+.rm_alt0  {
+    text-align:left; 
+    float:left;
+}
+
+.schedulebtn:hover, .schedulebtn:visited,.schedulebtn:focus {
+    background-color: #FFCC00;
+    color: #990000;
+    border-color: #FFCC00;
+}
+
+.schedulebtn {
+    background-color: #FFCC00;
+    color: #990000;
+    border-color: #FFCC00;
+}
+
+.unschedulebtn:hover,.unschedulebtn:focus, .unschedulebtn:visited {
+    background-color: rgb(219, 132, 2);
+    color: white;
+    border-color: rgb(219, 132, 2);
+}
+
+.unschedulebtn {
+    background-color: rgb(219, 132, 2);
+    color: white;
+    border-color:rgb(219, 132, 2);
+}
+
+.dropbtn:link
+{
+    background-color: #990000;
+    color:white;
+    border-color:#990000; 
+}
+
+.dropbtn:hover,.dropbtn:visited,.dropbtn:focus  {
+    background-color: #990000;
+    color:white;
+    border-color:#990000; 
+}
+
+.removebtn:link
+{
+    background-color: #515151;
+    color:white;
+    border-color:#515151; 
+}
+
+.removebtn:hover,.removebtn:visited, .removebtn:focus  {
+    background-color: #515151;
+    color:white;
+    border-color:#515151; 
+}
+
+.addbtn
+{
+    background-color: rgb(102, 176, 50); 
+    color:white;
+    border-color:rgb(102, 176, 50); 
+}
+.addbtn:hover,.addbtn:visited, .addbtn:focus  {
+    background-color: rgb(102, 176, 50); 
+    color:white;
+    border-color:rgb(102, 176, 50); 
+}
+
+.updatebtn
+{
+    background-color: #990000; 
+    color:white;
+    border-color:#990000; 
+}
+
+.updatebtn:hover,.updatebtn:visited, .updatebtn:focus  {
+    background-color: #990000; 
+    color:white;
+    border-color:#990000; 
+}
+
+a:hover {
+    color:none;
+}
+
+.actionbar {
+    float:left;
+}
+
+.section_head_alt0 {
+border-bottom-width: 1px;
+}
+
+.section_head_alt1 {
+border-bottom-width: 1px;
+}
+
+.bs-callout {
+    width:100%;
+}
+
+.spanUpdate
+{
+    max-height: 20px;
+    margin-top: 2px;
+}
+
+.updateBtn {
+    height:20px;
+}
+
+.cb_srchtxt
+{
+   margin-left: 2px;
+}
+
+.courseBinStat {
+    color:#990000;
+    font-weight:bold;
+}
+
+.accordion-content-area
+{
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-left: solid #F2F1F1 1px;
+    border-right: solid #F2F1F1 1px;
+    border-bottom: solid #F2F1F1 1px;
+    background-color: white;
+}
